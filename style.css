@@ -1,0 +1,232 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+nav{
+    flex: 1;
+    text-align: left;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+a{
+    text-decoration: dashed ;
+    font-family: Calibri;
+    color: aliceblue;
+    
+}
+a:hover{
+    color: rgb(103, 103, 236);
+
+}
+
+html, body {
+    background-color: rgb(19, 2, 21);
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+  }
+p{
+    color: aliceblue;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 35px;
+    padding-right: 25px;
+    padding-top: -1px;
+}
+h1{
+    color: aliceblue;
+    padding-top: 25px;
+    padding-left: 30px;
+    font-size: 70px;
+    font-family: Calibri;
+}
+p1{
+    color: aliceblue;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: Calibri;
+}
+/* .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+} */
+/* .col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+} */
+.col-2 img{
+    max-width: 100%;
+    padding-top: 1px;
+}
+/*  
+*/
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    background: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease, color 0.3s ease;
+    box-shadow: 0 0 0 rgba(103, 103, 236, 0);
+  }
+ 
+  /* .btn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, rgba(96, 96, 243, 0.8), rgba(103, 103, 236, 0) 50%);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+  } */
+  
+
+   .btn:hover {
+    background: rgb(88, 88, 232);
+    color: #fff;
+    box-shadow: 0 0 15px rgba(103, 103, 236, 0.8), 0 0 40px rgba(103, 103, 236, 0.5);
+  } 
+  
+/*  
+  .btn:hover::before {
+    opacity: 1;
+  } */
+  
+  
+  .btn:focus {
+    outline: none;
+  }
+.header{
+    background: radial-gradient(#000,#000);
+}
+
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.categories img {
+    max-width: 100%;
+    height: auto;
+}
+.col-4{
+    color: #fff;
+    font-family: Calibri;
+    font-size: 25px;
+    padding-left: 150px;
+    transition: transform 0.5s;
+}
+.col-4:hover{
+    transform: translateY(-10px);
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+.col-5 {
+    flex: 1;
+    text-align: center;
+    transition: transform 0.5s;
+}
+.col-5 img {
+    max-width: 70%;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+h3{
+    color: #fff;
+    font-family: Calibri;
+    font-size: 40px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+p{
+    text-align: left;
+    max-width: 70%;
+    height: auto;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.col-5:hover{
+    transform: translateY(-10px);
+}
+
+.login-button{
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    background: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease, color 0.3s ease;
+    box-shadow: 0 0 0 rgba(103, 103, 236, 0);
+}
+.login-button::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, rgba(96, 96, 243, 0.8), rgba(103, 103, 236, 0) 50%);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
+
+
+/* .login-button:hover{
+    background: rgb(88, 88, 232);
+    color: #fff;
+    box-shadow: 0 0 15px rgba(103, 103, 236, 0.8), 0 0 40px rgba(103, 103, 236, 0.5);
+} */
+
+.deal img{
+    margin: 50px;
+    width: 700px; 
+    height: auto;
+}
+
+
+
+
+
+
